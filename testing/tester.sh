@@ -38,7 +38,7 @@ do
 	if ! cmp --silent -- "err1.txt" "err2.txt"; then
 		echo "files differ"
 		exit 0
-	fi
+
 	
 	if [[ $o1 == $o2 ]]; then
 		echo TEST $i : PASSED;
